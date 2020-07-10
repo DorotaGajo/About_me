@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorota Gajo w internecie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="java script/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="poczatek" class="section section--highlited">
+        <h1 class="section__header">Witaj w moim świecie</h1>
+        <p class="section__p">Hej! Jestem Dorota i właśnie tworzę moją pierwszą stronę internetową.</p>
+        <button class="section__button js-viewLess">Zobacz mniej</button>
+        <button class="section__button js-changeBackground">Zmień tło na ciemne</button>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li class="menu__listItem"><a class="menu__link" href="#poczatek">Powitanie</a></li>
+            <li class="menu__listItem"><a class="menu__link" href="#first">Poznajmy się</a></li>
+            <li class="menu__listItem"><a class="menu__link" href="#second">Zmiany w życiu</a></li>
+            <li class="menu__listItem"><a class="menu__link" href="#third">Jaka jestem?</a></li>
+            <li class="menu__listItem"><a class="menu__link" href="#fourth">Wolny czas</a></li>
+            <li class="menu__listItem"><a class="menu__link" href="#stopka">Stopka</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="first" class="section">
+            <h2 class="section__subHeader">Poznajmy się</h2>
+            <p>Pracuję jako stewardesa od czterech lat. Przez ten czas przeżyłam w swojej pracy sporo
+                ciekawych przygód, poznałam świetnych ludzi i zwiedziłam wiele pięknych miejsc.
+                <br>Jak widać na zdjęciu, wstawanie w środku nocy nie jest dla mnie wielkim problemem.
+            </p>
+            <img class="section__photo" src="images/20191229_033745.jpg" alt="zdjęcie w mundurze z walizką">
+            <button class="section__button js-selectPlace">Najzimniejsze miejsce</button>
+            <table class="table">
+                <caption class="table__caption">Podróże służbowe w 2019 roku</caption>
+                <tr class="table__row">
+                    <th class="table__cell table__head" scope="col">Nazwa państwa</th>
+                    <th class="table__cell table__head" scope="col">Miasto</th>
+                    <th class="table__cell table__head" scope="col">Miesiąc pobytu</th>
+                    <th class="table__cell table__head" scope="col">Liczba dni</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__head" scope='row' rowspan="2">Francja</td>
+                    <td class="table__cell">Paryż</td>
+                    <td class="table__cell">kwiecień</td>
+                    <td class="table__cell">14</td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__cell">Bordeaux</td>
+                    <td class="table__cell">maj</td>
+                    <td class="table__cell">4</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__head" scope='row'>Wielka Brytania</th>
+                    <td class="table__cell">Londyn</td>
+                    <td class="table__cell">sierpień</td>
+                    <td class="table__cell">14</td>
+                </tr>
+                <tr class="table__row js-cold">
+                    <th class="table__cell table__head" scope='row'>Islandia</th>
+                    <td class="table__cell">Keflavik</td>
+                    <td class="table__cell">styczeń</td>
+                    <td class="table__cell">4</td>
+                </tr>
+                <tr class="table__row js-hot">
+                    <th class="table__cell table__head" scope='row'>Gambia</th>
+                    <td class="table__cell">Banjul</td>
+                    <td class="table__cell">wrzesień</td>
+                    <td class="table__cell">3</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__head" scope='row'>Azerbejdżan</th>
+                    <td class="table__cell">Baku</td>
+                    <td class="table__cell">październik</td>
+                    <td class="table__cell">4</td>
+                </tr>
+            </table>
+        </section>
+        <section class="section" id="second">
+            <h2 class="section__subHeader">Zmiany w życiu</h2>
+            <p>Choć praca <em>bardzo</em> mi się podoba, to chciałabym nauczyć się czegoś nowego,
+                co być może przyda mi się w przyszłości. Dlatego zdecydowałam się na naukę
+                programowania. <br> <span class="section__span section__span--important">Lubię kiedy coś się dzieje, a
+                    nauka nowych rzeczy
+                    sprawia mi frajdę.</span>
+                <br>Z powodzeniem zdobywam nowe umiejętności- np. Dyplom Rogalowego Czeladnika- jak na zdjęciu.</p>
+            <img class="section__photo" src="images/20190317_123508.jpg" alt="zdjęcie z dyplomem">
+        </section>
+        <section class="section" id="third">
+            <h2 class="section__subHeader">Jaka jestem?</h2>
+            <p>Jestem bardzo dokładna, zaangażowana w to co robię. Jestem też empatyczna i otwarta.
+                <strong> Bardzo rzadko się denerwuję, bo uważam, że szkoda na to czasu.</strong>
+                Moje motto to: <i>Do odważnych świat należy</i>.<br>Jak widać na zdjęciu, nie boję się
+                wyzwań, nawet takich jak karmienie małpek.
+            </p>
+            <img class="section__photo" src="images/20190820_152840.jpg" alt="zdjęcie z małpką">
+        </section>
+        <section class="section" id="fourth">
+            <h2 class="section__subHeader">Wolny czas</h2>
+            <p>W wolnym czasie poza nauką programowania, uczę się języka francuskiego,
+                eksperymentuję w kuchni, jeżdżę na rowerze lub rolkach i spotykam się ze znajomymi.
+                <br>W chłodniejsze dni zamiast rolek wybieram łyżwy, tak jak na fotce.
+            </p><img class="section__photo" src="images/IMG-20191214-WA0049.jpg" alt="zdjęcie na łyżwach">
+        </section>
+    </main>
+    <footer class="footer" id="stopka"><a class="footer__link" href="https://www.linkedin.com/in/dorota-gajo-a02586117/"
+            target="_blank" rel="norefferer noopener" title="konto na LinkedIn">
+            Obejrzyj moje konto na LinkedIn</a> <br>Czerwiec 2020</footer>
+</body>
+
+</html>

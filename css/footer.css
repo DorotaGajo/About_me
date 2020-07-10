@@ -1,0 +1,22 @@
+.footer {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.footer__link {
+
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.footer__link:hover {
+    font-weight: bold;
+}
+
+.footer__link:focus {
+    outline: 2px solid darkgreen;
+}
+
+.footer__link:active {
+    color: rgb(180, 253, 69);
+}

@@ -1,0 +1,42 @@
+.section {
+    background-color: #f5f5dc;
+    color: rgb(11, 85, 21);
+}
+
+.section--highlited {
+    background-color: rgb(11, 85, 21);
+    color: beige;
+    padding: 15px;
+    border: 4px solid rgb(109, 196, 109);
+}
+
+.section__subHeader {
+    padding: 20px;
+    border-bottom: 3px solid lightgreen;
+    /* border-radius: 50%; */
+    text-shadow: 1px 2px 3px lightgreen;
+
+}
+
+.section__span--important {
+    color: rgb(226, 106, 106);
+}
+
+.section__photo {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.section__header {
+    padding: 20px;
+    border-bottom: 3px solid lightgreen;
+    /* border-radius: 50%; */
+    text-shadow: 1px 2px 3px lightgreen;
+
+}
+
+.section__button {
+    padding: 5px;
+    font-size: 15px;
+}

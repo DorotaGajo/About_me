@@ -1,0 +1,22 @@
+html {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+
+.body--darkBackground {
+    background-color: #333;
+}

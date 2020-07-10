@@ -1,0 +1,27 @@
+.menu {
+    outline: 2px solid darkgreen;
+    outline-offset: 3px;
+}
+
+.menu__listItem {
+    list-style-type: none;
+    margin: 5px 0;
+
+}
+
+.menu__link {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.menu__link:hover {
+    font-weight: bold;
+}
+
+.menu__link:focus {
+    outline: 2px solid darkgreen;
+}
+
+.menu__link:active {
+    color: rgb(180, 253, 69);
+}
