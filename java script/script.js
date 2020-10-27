@@ -14,7 +14,7 @@ button2.addEventListener("click", () => {
     if (button2.innerText === "Zmień tło na ciemne") {
         body.classList.add("body--darkBackground");
         button2.innerText = "Ustaw jasne tło";
-    } else if (button2.innerText = "Ustaw jasne tło") {
+    } else if (button2.innerText === "Ustaw jasne tło") {
         body.classList.remove("body--darkBackground");
         button2.innerText = "Zmień tło na ciemne";
     }
