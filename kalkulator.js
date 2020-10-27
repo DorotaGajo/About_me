@@ -4,6 +4,7 @@ let currencyElement = document.querySelector(".js-currency");
 let resultElement = document.querySelector(".js-result");
 
 let rateEUR = 4.5107;
+let rateCHF = 4.1500;
 let rateUSD = 3.9825;
 let rateGBP = 5.0410;
 
@@ -15,6 +16,9 @@ formElement.addEventListener("submit", (event) => {
     switch (currency) {
         case "EUR":
             result = +amount / rateEUR;
+            break;
+        case "CHF":
+            result = +amount / rateCHF;
             break;
         case "USD":
             result = +amount / rateUSD;
